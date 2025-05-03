@@ -26,7 +26,7 @@ This project implements a Convolutional Neural Network (CNN) for classifying ima
 ## Results & Visualization
 
 ### Training Performance Analysis
-![Training Curves](training_curves.png) 
+![Training Curves](training_curves1.png) 
 
 **Key Observations from Graphs**:
 1. **Accuracy Progression**:

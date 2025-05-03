@@ -1,13 +1,13 @@
 # CIFAR-10 Image Classification with CNN
 
-## Project Description
+## 🎯 Project Description
 This project implements a Convolutional Neural Network (CNN) for classifying images from the CIFAR-10 dataset, following specific architectural constraints and optimization requirements.
 
-## Team Members
+## 👥 Team Members 
 - Rene Dvash 
 - Tagreed Assi
 
-## Key Features
+## ✨ Key Features
 - Custom CNN architecture with constraints based on ID digits
 - Experimentation with:
   - Different activation functions (ReLU, ELU, etc.)
@@ -16,14 +16,14 @@ This project implements a Convolutional Neural Network (CNN) for classifying ima
   - Various optimizers (SGD, Adam, RMSprop, etc.)
 - Comprehensive overfitting prevention strategies
 
-## Architecture Constraints
+## 🔐 Architecture Constraints
 - Filter/neuron counts based on ID digits (2-digit combinations):
   - Valid sizes: 21, 13, 34, 46, 68, 82, 20, 32, 23, 28, 89, 95
 - Used layer sizes in model:
   - Conv2D: 32, 68, 82
   - Dense: 89
 
-## Results & Visualization
+## 📊 Results & Visualization
 
 ### Training Performance Analysis
 ![Training Curves](training_curves1.png) 
@@ -38,7 +38,7 @@ This project implements a Convolutional Neural Network (CNN) for classifying ima
    - Validation loss stabilizes at 0.911
    - Effective regularization shown by small train-val gap
 
-### Detailed Optimizer Comparison
+### 🔄 Detailed Optimizer Comparison
 For complete experimental documentation including:
 - Learning rate tests
 - Batch size variations
@@ -58,7 +58,7 @@ For complete experimental documentation including:
 | **RMSprop**        | Default                | 81.3%         | 0.989     | 81.9%        | 0.961    | 91.0%          | 0.698      | Medium             |
 | **Adam**           | Default                | 80.2%         | 0.966     | 80.2%        | 0.963    | 86.5%          | 0.762      | Medium             |
 
-### Key Observations:
+### 🔍 Key Observations:
 1. **Top Performers**:
    - SGD with Momentum (μ=0.95) achieved highest test accuracy (82.0%)
    - Vanilla SGD showed best validation accuracy (82.2%) 
@@ -77,7 +77,7 @@ For complete experimental documentation including:
        momentum=0.95
    )
 
-## Model Architecture
+## 🧠 Model Architecture
 ```python
 layers.BatchNormalization(),
 layers.Conv2D(32, (3, 3), padding='same', activation='relu',kernel_regularizer=regularizers.l2(0.001)),

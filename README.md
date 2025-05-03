@@ -1,5 +1,12 @@
 # CIFAR-10 Image Classification with CNN
 
+![Deep Learning](https://img.shields.io/badge/Deep_Learning-Course_Project-blue)
+![CNN](https://img.shields.io/badge/CNN-Architecture-success)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-API-D00000?logo=keras)
+![SGD](https://img.shields.io/badge/Optimizer-SGD_with_Momentum-yellowgreen)
+![Nesterov](https://img.shields.io/badge/Nesterov-Tested-important)
+
 ## 🎯 Project Description
 This project implements a Convolutional Neural Network (CNN) for classifying images from the CIFAR-10 dataset, following specific architectural constraints and optimization requirements.
 
